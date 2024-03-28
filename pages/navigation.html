@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Navigation Practice</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            header {
+                margin-top: 100px;
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+
+            nav {
+                margin-bottom: 20px;
+            }
+
+            nav > ul {
+                display: flex;
+                list-style-type: none;
+                padding: 14px 0 14px 0;
+                /*When three values are specified, the first margin applies to the top, the second to the right and left, the third to the bottom.*/
+                margin: -8px -8px -8px;
+                background-color: white;
+                border: 1px dashed red;
+                gap: 50px;
+            }
+            li a {
+                border: 1px solid #000;
+                padding: 10px 30px;
+                text-decoration: none;
+                color: black;
+            }
+            #firstNav {
+                margin-right: auto;
+                background-color: blanchedalmond;
+            }
+            #secondNav {
+                margin-left: auto;
+                background-color: blanchedalmond;
+            }
+
+            #thirdNav {
+                justify-content: flex-end;
+            }
+            #fourthNav {
+                justify-content: center;
+            }
+            #fifthNav {
+                justify-content: space-between;
+            }
+            #sixthNav {
+                margin-right: auto;
+                background-color: blanchedalmond;
+            }
+            #seventhNav {
+                margin: auto;
+                background-color: blanchedalmond;
+            }
+            #eighthNavOne {
+                margin-right: auto;
+                background-color: blanchedalmond;
+            }
+            #eighthNavTwo {
+                margin-left: auto;
+                background-color: blanchedalmond;
+            }
+
+            .link1 {
+                background-color: blue;
+            }
+            .link2 {
+                background-color: cornflowerblue;
+            }
+            .link3 {
+                background-color: aliceblue;
+            }
+            .link4 {
+                background-color: royalblue;
+            }
+            .link5 {
+                background-color: deepskyblue;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="link1" id="firstNav"><a href="#">Link1</a></li>
+                    <li class="link2"><a href="#">Link2</a></li>
+                    <li class="link3"><a href="#">Link3</a></li>
+                    <li class="link4"><a href="#">Link4</a></li>
+                    <li class="link5"><a href="#">Link5</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li class="link1"><a href="#">Link1</a></li>
+                    <li class="link2"><a href="#">Link2</a></li>
+                    <li class="link3"><a href="#">Link3</a></li>
+                    <li class="link4"><a href="#">Link4</a></li>
+                    <li class="link5" id="secondNav"><a href="#">Link5</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul id="thirdNav">
+                    <li class="link1"><a href="#">Link1</a></li>
+                    <li class="link2"><a href="#">Link2</a></li>
+                    <li class="link3"><a href="#">Link3</a></li>
+                    <li class="link4"><a href="#">Link4</a></li>
+                    <li class="link5"><a href="#">Link5</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul id="fourthNav">
+                    <li class="link1"><a href="#">Link1</a></li>
+                    <li class="link2"><a href="#">Link2</a></li>
+                    <li class="link3"><a href="#">Link3</a></li>
+                    <li class="link4"><a href="#">Link4</a></li>
+                    <li class="link5"><a href="#">Link5</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul id="fifthNav">
+                    <li class="link1"><a href="#">Link1</a></li>
+                    <li class="link2"><a href="#">Link2</a></li>
+                    <li class="link3"><a href="#">Link3</a></li>
+                    <li class="link4"><a href="#">Link4</a></li>
+                    <li class="link5"><a href="#">Link5</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li class="link1"><a href="#">Link1</a></li>
+                    <li class="link2"><a href="#">Link2</a></li>
+                    <li class="link3" id="sixthNav"><a href="#">Link3</a></li>
+                    <li class="link4"><a href="#">Link4</a></li>
+                    <li class="link5"><a href="#">Link5</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li class="link1"><a href="#">Link1</a></li>
+                    <li class="link2"><a href="#">Link2</a></li>
+                    <li class="link3" id="seventhNav"><a href="#">Link3</a></li>
+                    <li class="link4"><a href="#">Link4</a></li>
+                    <li class="link5"><a href="#">Link5</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li class="link1" id="eighthNavOne">
+                        <a href="#">Link1</a>
+                    </li>
+                    <li class="link2">
+                        <a href="#">Link2</a>
+                    </li>
+                    <li class="link3">
+                        <a href="#">Link3</a>
+                    </li>
+                    <li class="link4" id="eighthNavTwo">
+                        <a href="#">Link4</a>
+                    </li>
+                    <li class="link5"><a href="#">Link5</a></li>
+                </ul>
+            </nav>
+        </header>
+    </body>
+</html>
